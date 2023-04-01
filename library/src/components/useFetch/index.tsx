@@ -67,6 +67,12 @@ export const useFetch = (url: string, params: Params = {}): ApiReturnType => {
 
   useEffect(() => {
     if (!url) {
+      /**
+       * this is the way to use the hook conditionally
+       * for example:
+       *
+       * const resp = useFetch(isLogged && someUrl);
+       */
       return;
     }
 
