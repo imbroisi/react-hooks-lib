@@ -1,0 +1,12 @@
+**/node_modules
+library/lib
+**/dist
+**/build
+**/package
+/umd
+**/npm-debug.log*
+es
+**/.vscode
+**/.DS_Store
+playground/imported-lib/**
+!playground/imported-lib/.gitkeepdir

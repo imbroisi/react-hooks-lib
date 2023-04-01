@@ -1,0 +1,27 @@
+{
+  "name": "react-hooks-lib",
+  "version": "0.1.0",
+  "description": "React Hooks Libs",
+  "scripts": {
+    "start": "cd playground && npm start",
+    "postinstall": "./scripts/postinstall.sh",
+    "local-publish": "./scripts/local-publish.sh",
+    "test": "cd library && npm run test",
+    "test:watch": "cd library && npm run test:watch",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbroisi/react-libs.git"
+  },
+  "author": "Luiz Imbroisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imbroisi/react-libs/issues"
+  },
+  "homepage": "https://github.com/imbroisi/react-libsr#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0"
+  }
+}
